@@ -13,7 +13,7 @@
     <jsp:body>
         <div style="margin-left: auto;margin-right: auto;width: 70%">
             <div class="border border-secondary rounded" style="padding: 20px 10px;">
-                <form>
+                <form method="POST">
                     <div class="form-group row">
 
                         <label class="col-sm-3 col-form-label" for="sport">Add new sport</label>
@@ -43,7 +43,7 @@
                         <td>${sport.id}</td>
                         <td>
                             <div style="float:left;width: 80%">
-                                <form>
+                                <form action="POST">
                                     <div class="form-group row">
                                         <div class="col-md-10">
                                             <input class="form-control" type="text" name="sport"
@@ -57,7 +57,7 @@
                                 </form>
                             </div>
                             <div style="float:left">
-                                <form>
+                                <form method="POST">
                                     <div class="form-group row">
                                         <div class="col-sm-8">
                                             <button type="submit" name="delete" class="btn btn-danger btn-sm">Delete

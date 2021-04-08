@@ -43,7 +43,7 @@
                         <td>${sport.id}</td>
                         <td>
                             <div style="float:left;width: 80%">
-                                <form action="POST" action="edit_sports_page">
+                                <form method="POST" action="edit_sports_page">
                                     <div class="form-group row">
                                         <div class="col-md-10">
                                             <input class="form-control" type="text" name="sport"
